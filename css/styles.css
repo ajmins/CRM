@@ -84,6 +84,14 @@ body {
     margin-top: 10px;
 }
 
+.footer {
+    text-align: right;
+    margin-top: -4.95%;
+    position: fixed;
+    bottom: 0;
+    padding: 5%;
+    margin-left: 48%;
+}
 .footer-container {
     margin: 5%;
     width: 80%;
