@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="../../css/materialize.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="../../css/styles.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <nav>
+        <div class="nav-wrapper black">
+            <!-- Sidebar -->
+            <a href="#" class="brand-logo center">
+                <img class="brand-logo center" id="logo" src="../../../images/logo.png" alt="Logo" />
+            </a>
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                            <img id="sidenav-bg" src="../../../images/background.png" />
+                        </div>
+                        <a href="#user"><img class="circle" src="../../../images/user.png" /></a>
+                        <a href="#name"><span class="white-text name">John Doe</span></a>
+                        <a href="#email">
+                            <span class="white-text email">jdandturk@gmail.com</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a class="waves-effect" href="adminDashboard.html"><i class="material-icons black-text">dashboard</i>Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="adminUsers.html"><i class="material-icons black-text">group</i>Users
+                    </a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="adminCourses.html"><i
+                            class="material-icons black-text">local_library</i>Courses
+                    </a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="adminEnquiries.html"><i
+                            class="material-icons black-text">query_stats</i>Enquiries
+                    </a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="adminCategories.html"><i class="material-icons black-text">category</i>Categories
+                    </a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="adminQualifications.html"><i
+                            class="material-icons black-text">military_tech</i>Qualifications
+                    </a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="adminBatches.html"><i class="material-icons black-text">school</i>Batches
+                    </a>
+                </li>
+                <div class="footer-container">
+                    <div class="bottom">
+                        <div class="divider"></div>
+                        <button class="logout-button btn-large black waves-effect">
+                            <li>
+                                <a class="white-text" href="loginPage.html"><i class="material-icons white-text">logout</i>Logout
+                                </a>
+                            </li>
+                        </button>
+                    </div>
+                </div>
+            </ul>
+            <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large">
+                <i class="material-icons">menu</i>
+            </a>
+        </div>
+    </nav>
+          <!-- <ul id="slide-out" class="sidenav">
+            <li><div class="user-view">
+                <i class="left material-icons" style="color: white;">close</i>
+                <i class="right material-icons" style="color: white;">search</i>
+                <br><br>
+              <div class="background">
+                <img src="../../images/office.jpg">
+              </div>
+               <a href="#user"><img class="circle" src="images/yuna.jpg"></a> -->
+              <!-- <a href="#name"><span class="white-text name">John Doe</span></a>
+              <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div></li>
+            <li><a class="waves-effect" href="#"><i class="material-icons">home</i>Home</a></li>
+            <li><a class="waves-effect" href="#!"><i class="material-icons">laptop</i>Course</a></li>
+            <li><a class="waves-effect" href="#!"><i class="material-icons">question_answer</i>Enquiry</a></li>
+            <li><a class="waves-effect" href="#!"><i class="material-icons">people_outline</i>Faculty</a></li>
+            <li><a class="waves-effect" href="#!"><i class="material-icons">thumbs_up_down</i>Rating</a></li>
+            <li><a class="waves-effect" href="#!"><i class="material-icons">today</i>Schedule</a></li>
+          </ul>  -->
+          <div class="container">
+            <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <textarea id="enquiry" class="materialize-textarea"></textarea>
+                    <label for="enquiry">Enquiry</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m4 l3">
+              <div class="card sticky-action">
+                <div class="card-image">
+                  <img src="../../images/image1.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-action deep-purple lighten-1"> 
+                    <a class="btn-floating halfway-fab waves-effect waves-light red card-fab" href="#"><i class="material-icons">keyboard_arrow_right</i></a>
+                    <p><img class="circle" src="../../images/yuna.jpg" height="30px"> <em>Yuna</em><br>I am a very simple card.</p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 m4 l3">
+                <div class="card sticky-action">
+                  <div class="card-image">
+                    <img src="../../images/image2.png">
+                  </div>
+                  <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                  </div>
+                  <div class="card-action deep-purple lighten-1"> 
+                      <a class="btn-floating halfway-fab waves-effect waves-light red card-fab" href="#"><i class="material-icons">keyboard_arrow_right</i></a>
+                      <p><img class="circle" src="../../images/yuna.jpg" height="30px"> <em>Yuna</em><br>I am a very simple card.</p>
+                  </div>
+                  <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12 m4 l3">
+                  <div class="card sticky-action">
+                    <div class="card-image">
+                      <img src="../../images/image3.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action deep-purple lighten-1"> 
+                        <a class="btn-floating halfway-fab waves-effect waves-light red card-fab" href="#"><i class="material-icons">keyboard_arrow_right</i></a>
+                        <p><img class="circle" src="../../images/yuna.jpg" height="30px"> <em>Yuna</em><br>I am a very simple card.</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                      </div>
+                  </div>
+                </div>
+          
+    
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="../../js/materialize.js"></script>
+      <script type="text/javascript" src="../../js/script.js"></script>
+    </body>
+
+  </html>
