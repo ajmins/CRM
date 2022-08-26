@@ -23,13 +23,11 @@
 body {
     background-color: var(--white);
     /* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); */
+   
 }
-footer{
-    display: flex;
-    min-height: 100vh;
-    bottom: 0;
-    flex-direction: column;
-    flex: 1 0 auto;
+/*top container*/
+.section {
+    padding-top: 4rem;
 }
 .black-text {
     color: var(--black) !important;
@@ -90,11 +88,12 @@ footer{
     margin-top: 10px;
 }
 
-
 .footer-container {
     margin: 5%;
     width: 80%;
+    
 }
+
 
 .bottom {
     position: absolute;
@@ -177,4 +176,24 @@ footer{
 [type="checkbox"]:checked + span:not(.lever):before {
     border-right: 2px solid var(--orange);
     border-bottom: 2px solid var(--orange);
+}
+/*footer*/
+.page-footer {
+    color: black !important;
+    background-color: transparent !important;
+    margin-bottom: 300px !important;
+
+}
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .page-footer .footer-copyright {
+    color: rgba(110, 110, 110, 0.8) !important;
+    background-color: transparent !important;
+}
+.align-footer{
+    padding-left: 1em;
 }
