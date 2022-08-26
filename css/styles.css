@@ -24,7 +24,13 @@ body {
     background-color: var(--white);
     /* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); */
 }
-
+footer{
+    display: flex;
+    min-height: 100vh;
+    bottom: 0;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
 .black-text {
     color: var(--black) !important;
 }
@@ -84,6 +90,7 @@ body {
     margin-top: 10px;
 }
 
+
 .footer-container {
     margin: 5%;
     width: 80%;
@@ -112,6 +119,11 @@ body {
     border-radius: 1%;
     margin: 1em;
     padding: 0.5em 2em;
+}
+
+.align-card {
+    margin-left: 20%;
+    margin-right:20%;
 }
 
 .card-title {
